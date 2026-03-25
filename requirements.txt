@@ -1,0 +1,5 @@
+openpyxl
+python-pptx
+python-docx
+google-genai
+python-dotenv

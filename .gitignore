@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment
+.env
+
+# Cache & output
+_cache_v3/
+rezultati_provjere*.docx
+
+# Primjeri (sadrže klijentske podatke)
+primjer*/
+
+# Office temp files
+~$*
