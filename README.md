@@ -29,12 +29,21 @@ GEMINI_API_KEY=tvoj_api_kljuc
 ## Korištenje
 
 ```bash
-python pipeline.py <putanja_do_excel> <putanja_do_pptx>
+python pipeline.py [excel1.xlsx excel2.xlsx ...] <putanja_do_pptx>
 ```
 
-Primjer:
+Ako se ne navedu Excel datoteke, automatski se pronalaze sve `.xlsx` datoteke u istom folderu kao PPTX.
+
+Primjeri:
 ```bash
+# Jedan Excel izvor
 python pipeline.py "primjer1/tablice.xlsx" "primjer1/izvjestaj.pptx"
+
+# Više Excel izvora
+python pipeline.py "primjer3/file1.xlsx" "primjer3/file2.xlsx" "primjer3/report.pptx"
+
+# Auto-detect svih .xlsx u folderu PPTX-a
+python pipeline.py "primjer3/Report_Granola_SRB_26-01-008B.pptx"
 ```
 
 Output: `rezultati_provjere_v3.docx` u istom folderu gdje je PPTX.

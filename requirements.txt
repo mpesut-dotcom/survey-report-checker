@@ -3,3 +3,5 @@ python-pptx
 python-docx
 google-genai
 python-dotenv
+PyMuPDF
+pydantic>=2.0

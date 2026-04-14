@@ -1,0 +1,392 @@
+﻿
+================================================================================
+SLIDE 3: WARNING  (data=0 err=0, text=3, vis=2)
+================================================================================
+Summary: Slide ima kritiŔan upit oko godine istra×ivanja (2026) te manje nekonzistentnosti u interpunkciji i vizualnom poravnanju elemenata.
+
+Matches:
+  ds[0] -> UNMATCHED (conf=0.0)
+    reason: Dataset 'Metoda' odnosi se na metodologiju istra×ivanja (npr. CAWI), Üto je opisni metapodatak o pro
+  ds[1] -> UNMATCHED (conf=0.0)
+    reason: Dataset 'Uzorak' opisuje definiciju ciljne skupine (npr. demografske kriterije), Üto je tehniŔki opi
+  ds[2] -> UNMATCHED (conf=0.0)
+    reason: Dataset 'VeliŔina uzorka' (N=600) predstavlja ukupni broj zapisa u bazi podataka. Iako mnoga pitanja
+  ds[3] -> UNMATCHED (conf=0.0)
+    reason: Dataset 'Razdoblje' odnosi se na vrijeme provedbe terenskog rada (fieldwork), Üto je logistiŔki poda
+
+  TEXT [ERROR] terminology
+    LogiŔka pogreÜka u datumu: Navedena godina '2026.' (u tekstu i footeru) je u buduŠnosti. Provjeriti radi li se o tipfeleru (vjerojatno 2024. ili 2025.).
+
+  TEXT [WARNING] grammar
+    Nekonzistentna interpunkcija na kraju natuknica. Sekcije 'Metoda' i 'Uzorak' zavrÜavaju toŔkom, dok 'VeliŔina uzorka' i 'Razdoblje' nemaju toŔku na kraju.
+
+  TEXT [INFO] spelling
+    Dvostruki razmak u tekstu: '600  ispitanika' u sekciji VeliŔina uzorka.
+
+  VIS [INFO] formatting
+    Zastava Austrije nije precizno centrirana u odnosu na tekst iznad nje niti je poravnata s donjim rubom ostalih elemenata.
+
+  VIS [WARNING] formatting
+    Horizontalno poravnanje naslova sekcija (Metoda, Uzorak, VeliŔina uzorka, Razdoblje) nije savrÜeno ujednaŔeno (naslov 'Razdoblje' djeluje blago pomaknut u odnosu na ostale).
+
+================================================================================
+SLIDE 4: ERROR  (data=1 err=0, text=1, vis=0)
+================================================================================
+Summary: Prona­ena je kritiŔna terminoloÜka pogreÜka u tablici gdje je varijabla 'VeliŔina mjesta' pogreÜno nazvana 'EMITIVNA TRÄIŐTA'. Tako­er je prisutan manji problem sa zaokru×ivanjem gdje zbroj postotaka za tu kategoriju iznosi 101%.
+
+Matches:
+  ds[0] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q3x (conf=0.95)
+    Q: Q3x. VeliŔina mjesta
+  ds[1] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q3x (conf=0.95)
+    Q: Q3x. VeliŔina mjesta
+  ds[2] -> UNMATCHED (conf=0.0)
+    reason: U ponu­enim Excel pitanjima nedostaje demografsko pitanje o spolu (MuÜki/Äenski).
+  ds[3] -> UNMATCHED (conf=0.0)
+    reason: U ponu­enim Excel pitanjima nedostaje demografsko pitanje o spolu (MuÜki/Äenski).
+  ds[4] -> UNMATCHED (conf=0.0)
+    reason: U ponu­enim Excel pitanjima nedostaje demografsko pitanje o dobi s navedenim kategorijama (18-29, 30
+  ds[5] -> UNMATCHED (conf=0.0)
+    reason: U ponu­enim Excel pitanjima nedostaje demografsko pitanje o dobi s navedenim kategorijama (18-29, 30
+  ds[6] -> UNMATCHED (conf=0.0)
+    reason: U ponu­enim Excel pitanjima nedostaje pitanje o prihodima kuŠanstva s navedenim labelama.
+  ds[7] -> UNMATCHED (conf=0.0)
+    reason: U ponu­enim Excel pitanjima nedostaje pitanje o prihodima kuŠanstva s navedenim labelama.
+  ds[8] -> UNMATCHED (conf=0.0)
+    reason: Ovo je sumarni KPI (ukupni uzorak) koji se obiŔno ne ve×e uz jedno specifiŔno pitanje veŠ uz cijeli 
+
+  DATA [WARNING] rounding
+    Zbroj postotaka za prvu kategoriju iznosi 101% (53% + 48%). Vrijednosti su matematiŔki ispravno zaokru×ene sa 52.5% i 47.5%, ali je uobiŔajena praksa prilagoditi jedno zaokru×ivanje kako bi ukupan zbroj bio 100%.
+    slide=101 excel=100
+
+  TEXT [ERROR] terminology
+    Oznaka 'EMITIVNA TRÄIŐTA' u tablici je pogreÜna za kategorije 'VeŠi gradovi' i 'Manji gradovi/mjesta'. Prema izvornim Excel podacima (Q3x), ispravan naziv varijable je 'VeliŔina mjesta'. Emitivna tr×iÜta se zapravo odnose na dr×ave prikazane na karti desno.
+
+================================================================================
+SLIDE 6: ERROR  (data=0 err=0, text=3, vis=4)
+================================================================================
+Summary: Slajd zahtijeva popravke zbog loÜeg prijeloma teksta unutar piramide koji naruÜava Ŕitljivost, gramatiŔke greÜke u legendi ('3 godina' umjesto '3 godine') te nedostatka baze (N=). Tako­er, isprekidane linije sijeku tekst u vrhu piramide.
+
+Matches:
+  ds[0] -> UNMATCHED (conf=0.0)
+    reason: Dataset predstavlja 'Brand Funnel' (Usvajanje brenda), Üto je agregirani/izvedeni prikaz koji kombin
+
+  TEXT [ERROR] grammar
+    U legendi s desne strane kod 'KratkoroŔna namjera kupnje' piÜe '(Q12: do 3 godina)'. Ispravno je '(Q12: do 3 godine)'.
+
+  TEXT [WARNING] terminology
+    U footeru piÜe 'HTZ Brand tracking 2026'. Provjeriti je li godina (2026) toŔna ili je tipfeler (vjerojatno treba biti 2023 ili 2024).
+
+  TEXT [INFO] inconsistency
+    Nazivi unutar piramide (npr. 'Svjesnost') nisu u potpunosti uskla­eni s nazivima u legendi (npr. 'Svjesnost o brendu').
+
+  VIS [ERROR] formatting
+    Tekst unutar elemenata piramide je loÜe prelomljen (word-wrap). RijeŔi su razbijene na pola bez crtice: 'PriuÜtivo st', 'PrivlaŔno st', 'Razumijeva nje', 'Svjesno st'. Potrebno je smanjiti font ili proÜiriti prostor za tekst.
+
+  VIS [WARNING] overlap
+    Isprekidane horizontalne linije koje oznaŔavaju nivoe konverzije prolaze direktno preko teksta 'namjera' u gornja dva nivoa piramide, Üto ga Ŕini neŔitljivim.
+
+  VIS [ERROR] missing_info
+    Nedostaje baza istra×ivanja (N=) na slajdu, Üto je standard za market research izvjeÜtaje.
+
+  VIS [WARNING] formatting
+    Tekst u gornjoj napomeni (**) je vrlo sitan i zbijen u odnosu na ostatak slajda.
+
+================================================================================
+SLIDE 7: ERROR  (data=0 err=0, text=4, vis=4)
+================================================================================
+Summary: Slajd ima ozbiljne vizualne i tekstualne nedostatke. Glavni problemi su preklapanje teksta legende s footerom, vjerojatan tipfeler u godini (2026), nedostatak baze (N) i izvora, te zalutali grafiŔki elementi (crveni blokovi).
+
+Matches:
+  ds[0] -> UNMATCHED (conf=0.0)
+    reason: Dataset predstavlja 'Brand Funnel' koji se sastoji od 7 razliŔitih faza (Svjesnost, Razumijevanje, P
+  ds[1] -> UNMATCHED (conf=0.0)
+    reason: Agregirani podatak za Brand Funnel (2025). Excel metapodaci sadr×e samo pitanja o namjeri (Q12), ali
+  ds[2] -> UNMATCHED (conf=0.0)
+    reason: Agregirani podatak za Brand Funnel (2024). Excel metapodaci sadr×e samo pitanja o namjeri (Q12), ali
+  ds[3] -> UNMATCHED (conf=0.0)
+    reason: Dataset prikazuje konverzije (postotne omjere) izme­u razina funnela. To su izvedene/izraŔunate metr
+  ds[4] -> UNMATCHED (conf=0.0)
+    reason: Dataset prikazuje konverzije (postotne omjere) izme­u razina funnela za 2025. godinu. To su izvedene
+  ds[5] -> UNMATCHED (conf=0.0)
+    reason: Dataset prikazuje konverzije (postotne omjere) izme­u razina funnela za 2024. godinu. To su izvedene
+
+  TEXT [ERROR] terminology
+    Godina '2026.' je vjerojatno tipfeler (moguŠe '2023.'), s obzirom na to da je u footeru navedeno 'Brand tracking 2024', a istra×ivanja su obiŔno retrospektivna.
+
+  TEXT [ERROR] missing_source
+    Nedostaje baza ispitanika (N=) za svaku od prikazanih godina (2024, 2025, 2026).
+
+  TEXT [WARNING] missing_source
+    Nedostaje izvor podataka (Source) na dnu slajda.
+
+  TEXT [ERROR] grammar
+    Tekst legende u donjem lijevom kutu je neŔitljiv zbog loÜeg prijeloma redova i preklapanja ('StatistiŔki znaŔajno ni×i rezultat u odnosu na 2025. godinu...').
+
+  VIS [ERROR] overlap
+    Tekst legende o statistiŔkoj znaŔajnosti se preklapa s footerom prezentacije ('Brand tracking 2024 | Strictly Confidential').
+
+  VIS [ERROR] formatting
+    U gornjem lijevom kutu nalaze se dva crvena pravokutnika koji izgledaju kao grafiŔki artefakti ili greÜkom ostavljeni elementi.
+
+  VIS [WARNING] formatting
+    Pozicioniranje oznaka godina je nekonzistentno: '2026.' je u donjem lijevom kutu lijevog funnela, '2025.' je u sredini desno, a '2024.' je u donjem lijevom kutu desnog funnela.
+
+  VIS [INFO] formatting
+    Vrijednosti konverzije (postoci sa strane funnela) za 2026. i 2024. godinu su razliŔito poravnate u odnosu na 2025. godinu.
+
+================================================================================
+SLIDE 8: WARNING  (data=0 err=0, text=0, vis=2)
+================================================================================
+Summary: Svi podaci na slajdu su toŔni i u potpunosti odgovaraju Excel izvorima. Prisutni su vizualni nedostaci: crveni blokovi koji prekrivaju tekst ispod naslova te preklapanje elemenata u gornjim dijelovima manjih grafova Üto ote×ava Ŕitljivost.
+
+Matches:
+  ds[0] -> UNMATCHED (conf=0.0)
+    reason: Ukupan potencijal je obiŔno polazna toŔka funnela (cijeli uzorak ili opŠa populacija putnika) i rije
+  ds[1] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q9 (conf=0.85)
+    Q: Q9. Od sljedeŠih dr×ava, odaberite one s Ŕijom ste turistiŔkom ponudom upoznati?
+  ds[2] -> UNMATCHED (conf=0.0)
+    reason: Razumijevanje brenda (Brand Understanding) obiŔno zahtijeva specifiŔno pitanje o dubini znanja koje 
+  ds[3] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q10 (conf=0.95)
+    Q: Q10. Od sljedeŠih dr×ava, odaberite one koje smatrate atraktivnom turistiŔkom de
+  ds[4] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q11 (conf=0.95)
+    Q: Q11. Od sljedeŠih dr×ava, odaberite one koje smatrate povoljnom turistiŔkom dest
+  ds[5] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q12.3 (conf=0.8)
+    Q: Q12.3. Kada namjeravate putovati u Hrvatsku na putovanje?
+  ds[6] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q12.3 (conf=0.8)
+    Q: Q12.3. Kada namjeravate putovati u Hrvatsku na putovanje?
+  ds[7] -> UNMATCHED (conf=0.0)
+    reason: Konverzija je izraŔunata metriŔka vrijednost (omjer dva nivoa funnela) i ne postoji kao izvorno pita
+  ds[8] -> UNMATCHED (conf=0.0)
+    reason: Konverzija je izraŔunata metriŔka vrijednost (omjer dva nivoa funnela) i ne postoji kao izvorno pita
+  ds[9] -> UNMATCHED (conf=0.0)
+    reason: Konverzija je izraŔunata metriŔka vrijednost (omjer dva nivoa funnela) i ne postoji kao izvorno pita
+  ds[10] -> UNMATCHED (conf=0.0)
+    reason: Konverzija je izraŔunata metriŔka vrijednost (omjer dva nivoa funnela) i ne postoji kao izvorno pita
+  ds[11] -> UNMATCHED (conf=0.0)
+    reason: Konverzija je izraŔunata metriŔka vrijednost (omjer dva nivoa funnela) i ne postoji kao izvorno pita
+  ds[12] -> UNMATCHED (conf=0.0)
+    reason: Konverzija je izraŔunata metriŔka vrijednost (omjer dva nivoa funnela) i ne postoji kao izvorno pita
+
+  VIS [WARNING] unreadable
+    Dva crvena pravokutnika prekrivaju tekst ispod glavnog naslova.
+
+  VIS [WARNING] formatting
+    U gornjim, u×im dijelovima lijevka za konkurentske destinacije (razine 5, 6, 7), brojke i oznake statistiŔke znaŔajnosti (strelice, kru×iŠi) se preklapaju i teÜko su Ŕitljivi. Tako­er, bijeli tekst na svijetloj pozadini ima slab kontrast.
+
+================================================================================
+SLIDE 9: ERROR  (data=0 err=0, text=3, vis=4)
+================================================================================
+Summary: Slajd ima ozbiljne nedostatke u market research standardima: nedostaju baze (N) i izvor podataka. Vizualno je prisutan problem neŔitljivosti brojeva zbog loÜeg kontrasta boja te nekonzistentnost u formatiranju labela izme­u gornjeg i donjeg reda grafova.
+
+Matches:
+  ds[0] -> UNMATCHED (conf=0.0)
+    reason: Dataset predstavlja 'Brand Funnel' s izraŔunatim metrikama (PriuÜtivost, PrivlaŔnost, Razumijevanje 
+  ds[1] -> UNMATCHED (conf=0.0)
+    reason: Dataset predstavlja 'Brand Funnel' s izraŔunatim metrikama (PriuÜtivost, PrivlaŔnost, Razumijevanje 
+  ds[2] -> UNMATCHED (conf=0.0)
+    reason: Dataset predstavlja 'Brand Funnel' s izraŔunatim metrikama (PriuÜtivost, PrivlaŔnost, Razumijevanje 
+  ds[3] -> UNMATCHED (conf=0.0)
+    reason: Dataset predstavlja 'Brand Funnel' s izraŔunatim metrikama (PriuÜtivost, PrivlaŔnost, Razumijevanje 
+  ds[4] -> UNMATCHED (conf=0.0)
+    reason: Dataset predstavlja 'Brand Funnel' s izraŔunatim metrikama (PriuÜtivost, PrivlaŔnost, Razumijevanje 
+  ds[5] -> UNMATCHED (conf=0.0)
+    reason: Dataset predstavlja 'Brand Funnel' s izraŔunatim metrikama (PriuÜtivost, PrivlaŔnost, Razumijevanje 
+
+  TEXT [WARNING] terminology
+    MijeÜanje jezika: Nazivi segmenata su na engleskom jeziku (npr. 'Impulsive & Free Spirits'), dok je ostatak slajda na hrvatskom.
+
+  TEXT [ERROR] missing_source
+    Nedostaje napomena o izvoru podataka (Source) na dnu slajda.
+
+  TEXT [WARNING] spelling
+    U footeru stoji 'HTZ Brand tracking 2026'. Provjeriti je li godina 2026. toŔna ili je tipfeler (vjerojatno 2024.).
+
+  VIS [ERROR] missing_info
+    Nedostaje baza istra×ivanja (N=) za svaki pojedini segment. Bez baze podaci u market researchu nisu validni.
+
+  VIS [ERROR] unreadable
+    LoÜ kontrast: Bijeli brojevi na svijetlonaranŔastim vrhovima funnela (npr. kod 'Impulsive & Free Spirits' i 'People Pleasers') su gotovo neŔitljivi.
+
+  VIS [WARNING] formatting
+    Nekonzistentan prikaz labela: U gornjem redu grafova brojevi su bijeli i centrirani unutar elemenata, dok su u donjem redu crni i 'lebde' iznad tankih linija/barova.
+
+  VIS [INFO] formatting
+    Y-os (labele faza funnela) se ponavlja u donjem redu, Üto vizualno optereŠuje slajd; preporuka je poravnati sve grafove prema jednoj osi ako je moguŠe.
+
+================================================================================
+SLIDE 10: WARNING  (data=0 err=0, text=0, vis=1)
+================================================================================
+Summary: Podaci na slajdu su toŔni i u potpunosti odgovaraju Excel izvorima. UoŔena je tek manja nekonzistentnost u formatiranju teksta baze (interpunkcija).
+
+Matches:
+  ds[0] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q7 (conf=0.98)
+    Q: Q7. Koje dr×ave Vam padnu na pamet kada se spomenu putovanja u inozemstvo? - PRV
+  ds[1] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q7 (conf=0.98)
+    Q: Q7. Koje dr×ave Vam padnu na pamet kada se spomenu putovanja u inozemstvo? - PRV
+  ds[2] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q7 (conf=0.98)
+    Q: Q7. Koje dr×ave Vam padnu na pamet kada se spomenu putovanja u inozemstvo? - PRV
+  ds[3] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q7 (conf=0.98)
+    Q: Q7. Koje dr×ave Vam padnu na pamet kada se spomenu putovanja u inozemstvo? - PRV
+  ds[4] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q7 (conf=0.98)
+    Q: Q7. Koje dr×ave Vam padnu na pamet kada se spomenu putovanja u inozemstvo? - PRV
+  ds[5] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q7 (conf=0.98)
+    Q: Q7. Koje dr×ave Vam padnu na pamet kada se spomenu putovanja u inozemstvo? - PRV
+  ds[6] -> UNMATCHED (conf=0.0)
+    reason: Spontano poznavanje (uk) obiŔno predstavlja zbroj prve spomenute i ostalih spomenutih dr×ava. U Exce
+  ds[7] -> UNMATCHED (conf=0.0)
+    reason: Nema odgovarajuŠeg Excel pitanja za ukupno spontano poznavanje.
+  ds[8] -> UNMATCHED (conf=0.0)
+    reason: Nema odgovarajuŠeg Excel pitanja za ukupno spontano poznavanje.
+  ds[9] -> UNMATCHED (conf=0.0)
+    reason: Nema odgovarajuŠeg Excel pitanja za ukupno spontano poznavanje.
+  ds[10] -> UNMATCHED (conf=0.0)
+    reason: Nema odgovarajuŠeg Excel pitanja za ukupno spontano poznavanje.
+  ds[11] -> UNMATCHED (conf=0.0)
+    reason: Nema odgovarajuŠeg Excel pitanja za ukupno spontano poznavanje.
+  ds[12] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q8 (conf=0.95)
+    Q: Q8. U koju stranu dr×avu planirate otiŠi na putovanje?
+  ds[13] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q8 (conf=0.95)
+    Q: Q8. U koju stranu dr×avu planirate otiŠi na putovanje?
+  ds[14] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q8 (conf=0.95)
+    Q: Q8. U koju stranu dr×avu planirate otiŠi na putovanje?
+  ds[15] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q8 (conf=0.95)
+    Q: Q8. U koju stranu dr×avu planirate otiŠi na putovanje?
+  ds[16] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q8 (conf=0.95)
+    Q: Q8. U koju stranu dr×avu planirate otiŠi na putovanje?
+  ds[17] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q8 (conf=0.95)
+    Q: Q8. U koju stranu dr×avu planirate otiŠi na putovanje?
+  ds[18] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q9 (conf=0.98)
+    Q: Q9. Od sljedeŠih dr×ava, odaberite one s Ŕijom ste turistiŔkom ponudom upoznati?
+  ds[19] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q9 (conf=0.98)
+    Q: Q9. Od sljedeŠih dr×ava, odaberite one s Ŕijom ste turistiŔkom ponudom upoznati?
+  ds[20] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q9 (conf=0.98)
+    Q: Q9. Od sljedeŠih dr×ava, odaberite one s Ŕijom ste turistiŔkom ponudom upoznati?
+  ds[21] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q9 (conf=0.98)
+    Q: Q9. Od sljedeŠih dr×ava, odaberite one s Ŕijom ste turistiŔkom ponudom upoznati?
+  ds[22] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q9 (conf=0.98)
+    Q: Q9. Od sljedeŠih dr×ava, odaberite one s Ŕijom ste turistiŔkom ponudom upoznati?
+  ds[23] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q9 (conf=0.98)
+    Q: Q9. Od sljedeŠih dr×ava, odaberite one s Ŕijom ste turistiŔkom ponudom upoznati?
+  ds[24] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q10 (conf=0.98)
+    Q: Q10. Od sljedeŠih dr×ava, odaberite one koje smatrate atraktivnom turistiŔkom de
+  ds[25] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q10 (conf=0.98)
+    Q: Q10. Od sljedeŠih dr×ava, odaberite one koje smatrate atraktivnom turistiŔkom de
+  ds[26] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q10 (conf=0.98)
+    Q: Q10. Od sljedeŠih dr×ava, odaberite one koje smatrate atraktivnom turistiŔkom de
+  ds[27] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q10 (conf=0.98)
+    Q: Q10. Od sljedeŠih dr×ava, odaberite one koje smatrate atraktivnom turistiŔkom de
+  ds[28] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q10 (conf=0.98)
+    Q: Q10. Od sljedeŠih dr×ava, odaberite one koje smatrate atraktivnom turistiŔkom de
+  ds[29] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q10 (conf=0.98)
+    Q: Q10. Od sljedeŠih dr×ava, odaberite one koje smatrate atraktivnom turistiŔkom de
+  ds[30] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q11 (conf=0.98)
+    Q: Q11. Od sljedeŠih dr×ava, odaberite one koje smatrate povoljnom turistiŔkom dest
+  ds[31] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q11 (conf=0.98)
+    Q: Q11. Od sljedeŠih dr×ava, odaberite one koje smatrate povoljnom turistiŔkom dest
+  ds[32] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q11 (conf=0.98)
+    Q: Q11. Od sljedeŠih dr×ava, odaberite one koje smatrate povoljnom turistiŔkom dest
+  ds[33] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q11 (conf=0.98)
+    Q: Q11. Od sljedeŠih dr×ava, odaberite one koje smatrate povoljnom turistiŔkom dest
+  ds[34] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q11 (conf=0.98)
+    Q: Q11. Od sljedeŠih dr×ava, odaberite one koje smatrate povoljnom turistiŔkom dest
+  ds[35] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q11 (conf=0.98)
+    Q: Q11. Od sljedeŠih dr×ava, odaberite one koje smatrate povoljnom turistiŔkom dest
+
+  VIS [WARNING] formatting
+    Nekonzistentna interpunkcija u opisu baze: '2026 N=600, 2025 N=600, 2024 N=600, 2023: N=600; 2020: N=600; 2019: N=600' (kombinacija zareza, dvotoŔki i toŔka-zareza).
+
+================================================================================
+SLIDE 11: ERROR  (data=1 err=0, text=1, vis=1)
+================================================================================
+Summary: Prona­ena je greÜka u naslovu (navodi TOP 15, a prikazano je 17 destinacija). Svi TOM podaci se podudaraju s Excel izvorom, ali postoji problem s internom matematiŔkom konzistencijom zbrajanja na grafu zbog zaokru×ivanja. Tako­er, neke oznake podataka za manje vrijednosti su vizualno odsjeŔene.
+
+Matches:
+  ds[0] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q7 (conf=1.0)
+    Q: Q7. Koje dr×ave Vam padnu na pamet kada se spomenu putovanja u inozemstvo? - PRV
+  ds[1] -> UNMATCHED (conf=0.0)
+    reason: U ponu­enim Excel metapodacima ne postoji pitanje koje prikuplja ostale spontane odgovore; Q7 je def
+  ds[2] -> UNMATCHED (conf=0.0)
+    reason: UKUPNO spontano dosjeŠanje je izvedena/agregirana metrika (zbroj TOM i ostalih spontanih spominjanja
+
+  DATA [WARNING] rounding
+    Zbog nezavisnog zaokru×ivanja postotaka, zbroj 'TOM' i 'Ostali spontano' ne odgovara uvijek prikazanom 'UKUPNO spontano'. Primjeri: Italija (22+36=58, prikazano 57), Hrvatska (10+22=32, prikazano 31), Francuska (4+17=21, prikazano 22), Turska (5+9=14, prikazano 13), Slovenija (0+7=7, prikazano 8), ╚eÜka (1+7=8, prikazano 7).
+    slide=Razno excel=N/A
+
+  TEXT [ERROR] factual_claim
+    Naslov slajda navodi 'TOP 15 DESTINACIJA', ali na grafu je zapravo prikazano 17 destinacija.
+
+  VIS [WARNING] truncated
+    Oznake podataka (brojevi) u tamnoplavim 'TOM' stupcima za manje vrijednosti (Portugal, Slovenija, ╚eÜka, Nizozemska) su vizualno odsjeŔene i teÜko Ŕitljive zbog male Üirine stupca.
+
+================================================================================
+SLIDE 13: ERROR  (data=2 err=2, text=1, vis=1)
+================================================================================
+Summary: Prona­ena je gramatiŔka greÜka u naslovu ('KOJU' umjesto 'KOJI'). Podaci za TOM (prva spomenuta destinacija) na slajdu se znaŔajno razlikuju od prilo×enih Excel podataka za obje ciljne skupine, Üto sugerira da je u Excelu vjerojatno prikazan total uzorka, a ne podaci po segmentima. Tako­er, prisutna su vizualna odstupanja u zbrojevima na grafikonima zbog zaokru×ivanja.
+
+Matches:
+  ds[0] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q7 (conf=0.95)
+    Q: Q7. Koje dr×ave Vam padnu na pamet kada se spomenu putovanja u inozemstvo? - PRV
+  ds[1] -> UNMATCHED (conf=0.0)
+    reason: Dataset 1 prikazuje 'Ostale spontano' spomenute destinacije. Iako je izvor vjerojatno isto istra×iva
+  ds[2] -> UNMATCHED (conf=0.0)
+    reason: Dataset 2 prikazuje 'Ukupno spontano' dosjeŠanje. To je agregirani podatak (TOM + Ostali), a u meta-
+  ds[3] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q7 (conf=0.95)
+    Q: Q7. Koje dr×ave Vam padnu na pamet kada se spomenu putovanja u inozemstvo? - PRV
+  ds[4] -> UNMATCHED (conf=0.0)
+    reason: Dataset 4 se odnosi na 'Ostale spontano' spomene za posjetitelje Hrvatske. Kao i kod dataseta 1, met
+  ds[5] -> UNMATCHED (conf=0.0)
+    reason: Dataset 5 prikazuje 'Ukupno spontano' dosjeŠanje za posjetitelje. BuduŠi da meta-podaci za Q7 specif
+
+  DATA [ERROR] wrong_value
+    Podaci za 'Namjeravaju posjetiti Hrvatsku' (TOM) na slajdu ne odgovaraju prilo×enom Excel izvoru za veŠinu zemalja. Npr. Hrvatska na slajdu je 25, a u Excelu 9.5%; NjemaŔka na slajdu je 2, a u Excelu 7.2%; Prekooceanske zemlje su 8, a u Excelu 10.5%.
+    slide=25 excel=9.5
+
+  DATA [ERROR] wrong_value
+    Podaci za 'Posjetili Hrvatsku' (TOM) na slajdu ne odgovaraju prilo×enom Excel izvoru. Npr. Hrvatska na slajdu je 13, a u Excelu 9.5%; NjemaŔka na slajdu je 5, a u Excelu 7.2%; Prekooceanske zemlje su 12, a u Excelu 10.5%.
+    slide=13 excel=9.5
+
+  TEXT [ERROR] grammar
+    Tipfeler u podnaslovu: 'ONI KOJU SU POSJETILI HR' treba biti 'ONI KOJI SU POSJETILI HR'.
+
+  VIS [WARNING] formatting
+    Zbroj vrijednosti 'TOM' i 'Ostali spontano' ne odgovara prikazanom totalu za nekoliko zemalja, vjerojatno zbog zaokru×ivanja decimala. Npr. Namjeravaju: Italija (20+41=61, prikazano 62), Francuska (4+18=22, prikazano 23). Posjetili: Hrvatska (13+28=41, prikazano 42), Slovenija (0+9=9, prikazano 10).
+
+================================================================================
+SLIDE 14: OK  (data=0 err=0, text=0, vis=0)
+================================================================================
+Summary: Svi podaci na slajdu (postoci u grafovima i prosjeci) u potpunosti odgovaraju izvornim Excel podacima. Nisu prona­ene tekstualne ni vizualne greÜke.
+
+Matches:
+  ds[0] -> Data_online_26_01_009_brand_tracker_skupni_v7_ansi_dod_tables_aus_v2__Broj zemalja koje Še posjetiti u godinu dana (conf=0.85)
+    Q: Broj zemalja koje Še posjetiti u godinu dana
+  ds[1] -> Data_online_26_01_009_brand_tracker_skupni_v7_ansi_dod_tables_aus_v2__Broj zemalja koje Še posjetiti u sljedeŠe tri godine (conf=0.95)
+    Q: Broj zemalja koje Še posjetiti u sljedeŠe tri godine
+  ds[2] -> Data_online_26_01_009_brand_tracker_skupni_v7_ansi_dod_tables_aus_v2__Broj zemalja koje Še posjetiti u sljedeŠih pet godina (conf=0.95)
+    Q: Broj zemalja koje Še posjetiti u sljedeŠih pet godina
+  ds[3] -> UNMATCHED (conf=0.0)
+    reason: U dostupnim Excel metapodacima ne postoji zasebna varijabla koja prikazuje distribuciju (0, 1, 2...)
+  ds[4] -> Data_online_26_01_009_brand_tracker_skupni_v7_ansi_dod_tables_aus_v2__Broj zemalja koje Še posjetiti u godinu dana (conf=0.9)
+    Q: Broj zemalja koje Še posjetiti u godinu dana
+
+================================================================================
+SLIDE 15: WARNING  (data=1 err=0, text=1, vis=0)
+================================================================================
+Summary: Sve ukupne vrijednosti destinacija (Q8) na grafu su toŔne i odgovaraju Excelu. Segmenti koji prikazuju vremenski okvir za Ujedinjeno Kraljevstvo su tako­er toŔni (ispravno izraŔunati kao postotak od ukupne baze). Segmente za ostale dr×ave nije bilo moguŠe provjeriti zbog nedostatka tih specifiŔnih podataka u prilo×enom Excel izvoru. UoŔen je manji gramatiŔki problem u tekstu legende.
+
+Matches:
+  ds[0] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q8 (conf=0.95)
+    Q: Q8. U koju stranu dr×avu planirate otiŠi na putovanje?
+  ds[1] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q12.22 (conf=0.95)
+    Q: Q12.22. Kada namjeravate putovati u Ujedinjeno Kraljevstvo na putovanje?
+  ds[2] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q12.22 (conf=0.95)
+    Q: Q12.22. Kada namjeravate putovati u Ujedinjeno Kraljevstvo na putovanje?
+  ds[3] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q12.22 (conf=0.95)
+    Q: Q12.22. Kada namjeravate putovati u Ujedinjeno Kraljevstvo na putovanje?
+  ds[4] -> Data_online_26_01_009_brand_tracker_skupni_ansi_tables_aus_v1__Q12.22 (conf=0.95)
+    Q: Q12.22. Kada namjeravate putovati u Ujedinjeno Kraljevstvo na putovanje?
+
+  DATA [INFO] missing_data
+    U prilo×enim Excel podacima (Matchani Excel podaci) nalaze se podaci za Q12 (vremenski okvir putovanja) samo za Ujedinjeno Kraljevstvo. Zbog toga nije bilo moguŠe provjeriti toŔnost pojedinaŔnih segmenata na grafu (vremenski okviri) za ostalih 14 destinacija. Sve ukupne vrijednosti (Q8) i segmenti za Ujedinjeno Kraljevstvo su provjereni i toŔni.
+
+  TEXT [WARNING] grammar
+    U legendi grafa piÜe 'U sljedeŠih godinu dana', Üto je gramatiŔki neispravno (kombinacija genitiva mno×ine i akuzativa jednine). U izvornom Excelu ispravno stoji 'U sljedeŠoj godini'.

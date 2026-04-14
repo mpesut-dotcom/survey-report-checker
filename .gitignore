@@ -6,9 +6,15 @@ __pycache__/
 # Environment
 .env
 
+# Backup
+_backup/
+
 # Cache & output
 _cache_v3/
+_cache/
+_output/
 rezultati_provjere*.docx
+provjera_*.docx
 
 # Primjeri (sadrže klijentske podatke)
 primjer*/
